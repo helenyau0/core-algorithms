@@ -8,7 +8,7 @@ export default function FizzBuzz() {
   for ( let i = 0; i < array.length; i++ ) {
     if(array[i] % 3 === 0 && array[i] % 5 === 0) {
       numArray.push(three_five)
-    } else if( array[i] % 3 === 0 ) {
+    } else if( array[i] % 3 === 0 ) {//===2
       numArray.push(threeIsFizz)
     } else if(array[i] % 5 === 0 ) {
       numArray.push(fiveIsBuzz)
