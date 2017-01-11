@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import fizzBuzz from '../src/fizzBuzz'
 
-describe( 'fizzBuzz()', () => {
+describe( 'fizzBuzz', () => {
   it( 'should be a function', () => {
     expect(fizzBuzz).to.be.a( 'function' )
   })

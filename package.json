@@ -2,7 +2,7 @@
   "name": "core-algorithms",
   "description": "Tests and implementations for algorithms commonly used in job interviews.",
   "private": false,
-  "version": "1.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/helenyau0/core-algorithms.git"

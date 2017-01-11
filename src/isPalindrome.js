@@ -9,10 +9,9 @@ export default function isPalindrome(string) {
   }
 
   if (check === emptyArray ) {
-    return true;
+    return true
   } else {
-    return false;
+    return false
   }
   return emptyArray
-
 }
