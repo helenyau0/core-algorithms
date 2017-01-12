@@ -5,17 +5,16 @@ export default function FizzBuzz() {
   let fiveIsBuzz = 'Buzz'
   let three_five = 'FizzBuzz'
 
-  for ( let i = 0; i < array.length; i++ ) {
+  for (let i = 0; i < array.length; i++) {
     if(array[i] % 3 === 0 && array[i] % 5 === 0) {
       numArray.push(three_five)
-    } else if( array[i] % 3 === 0 ) {//===2
+    } else if(array[i] % 3 === 0) {
       numArray.push(threeIsFizz)
     } else if(array[i] % 5 === 0 ) {
       numArray.push(fiveIsBuzz)
     } else {
       numArray.push(array[i])
     }
-
   }
   return numArray
 }

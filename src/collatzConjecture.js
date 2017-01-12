@@ -4,7 +4,6 @@ const equalsOne = n => (n == 1)
 
 const collatzConjecture = (num, conjecture = []) => {
   if(!conjecture.length) {conjecture.push(num)}
-  console.log(num, conjecture)
   if (!equalsOne(num)) {
     if(isEven(num)) {
       const evenVar = (num / 2)
