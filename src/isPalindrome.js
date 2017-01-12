@@ -4,13 +4,7 @@ export default function isPalindrome(string) {
   let emptyString = ''
 
   for(let i = check.length - 1; i >= 0; i--) {
-      emptyString += check[i]
+    emptyString += check[i]
   }
-
-  if(check === emptyString) {
-    return true
-  } else {
-    return false
-  }
-  return emptyString
+  return (check === emptyString)
 }
